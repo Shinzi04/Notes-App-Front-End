@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.shadow {
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section {
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+input, textarea{
+    border-color: darkgrey;
+}
+
+label{
+    font-size: 1.5rem;
+}
